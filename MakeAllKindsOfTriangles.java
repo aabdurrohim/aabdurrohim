@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MembuatSegitiga {
     public static void main(String[] args) {
         int x = 6;
-        //cara membuat segitiga siku2//
+        //right triangle//
         System.out.println("--------");
         for (int i = 1; i <= x ; i++) {
             for (int j = 1; j <= i ; j++) {
@@ -14,14 +14,14 @@ public class MembuatSegitiga {
             System.out.println(" ");
         }
         System.out.println("--------");
-        //cara membuat segitiga siku terbalik//
+        //inverted right triangle//
         for (int i = 1; i <= 6 ; i++) {
             for (int j = x; j >= i ; j--) {
                 System.out.print("*");
             }
             System.out.println("");
         }
-        //cara membuat segitiga dengan jarak nilai ganjil//
+        //make a triangle with odd value distance//
         System.out.println("---------");
         for (int i = 1; i <= x ; i++) {
             for (int j = 1; j <= i * 2 - 1  ; j++) {
@@ -30,14 +30,14 @@ public class MembuatSegitiga {
             System.out.println("");
         }
         System.out.println("-------");
-        //membuat segitiga siku2 nilai ganjil terbalik//
+        // make a triangle with an inverted odd value distance//
         for (int i = 1; i <= x; i++) {
             for (int j = x * 2 - 1; j >= i * 2 - 1; j--) {
                 System.out.print("*");
             }
             System.out.println("");
         }
-        //membuat segitiga siku2 nilai genap//
+        //make a right triangle even value//
         System.out.println("-------");
         for (int i = 0; i <= x ; i++) {
             for (int j = 1; j <= i * 2 ; j++) {
@@ -46,7 +46,7 @@ public class MembuatSegitiga {
             System.out.println("");
         }
         System.out.println("---------");
-        //membuat segitiga  dengan menghadap ke kiri//
+        //make a triangle facing left//
         for (int i = 0; i <= x; i++) {
             for (int j = x; j >= i ; j--) {
                 System.out.print(" ");
@@ -57,7 +57,7 @@ public class MembuatSegitiga {
             System.out.println("");
         }
         System.out.println("---------");
-        //membuat segitiga kekiri terbalik//
+        //make a triangle facing left upside down//
         for (int i = 1; i <= x ; i++) {
             for (int j = 1; j <= i ; j++) {
                 System.out.print(" ");
@@ -68,7 +68,7 @@ public class MembuatSegitiga {
             System.out.println("");
         }
         System.out.println("---------");
-        //membuat persegi//
+        //make a square//
         for (int i = 1; i <= x; i++) {
             for (int j = 1; j <= 6 ; j++) {
                 System.out.print("*");
@@ -76,12 +76,12 @@ public class MembuatSegitiga {
             System.out.println("");
         }
         System.out.println("--------");
-        //membuat piramida///
+        //make a pyramid///
         Scanner input = new Scanner(System.in);
         System.out.println("masukkan nilai seberapa tinggi : ");
         int baris = input.nextInt();
         for (int i = 1; i <= baris ; i++) {
-            for (int j = baris; j >= i ; j--) {
+            for (int j = baris; j >= i ; j--) { 
                 System.out.print(" ");
             }
             for (int j = 1; j <= i ; j++) {
@@ -92,7 +92,7 @@ public class MembuatSegitiga {
             }
             System.out.println("");
         }
-        //mwmbuat piramida terbalik//
+        //make an inverted pyramid//
         System.out.println("--------");
         System.out.println("masukkan nilai seberapa tinggi : ");
         int nilai = input.nextInt();
