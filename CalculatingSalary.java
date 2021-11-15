@@ -1,3 +1,5 @@
+//case : calculate the wages of employees working overtime with different classifications, and with different wages
+
 import java.util.Scanner;
 
 public class UpahKerja {
