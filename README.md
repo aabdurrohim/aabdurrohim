@@ -1,7 +1,10 @@
 <h1 align="center">Hi 👋, I'm abee</h1>
 <h3 align="center">Someone who never gives up on trying new things, I'm very interested in programming, especially Backend and Devops, sometimes I also make UI</h3>
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aabdurrohim&size_weight=0.5&count_weight=0.5)
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=aabdurrohim&show_icons=true&theme=tokyonight)
+
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aabdurrohim&size_weight=0.5&count_weight=0.5)
+
 <p align="left">
 </p>
 
