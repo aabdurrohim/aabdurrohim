@@ -2,7 +2,7 @@
 <h3 align="center">Someone who never gives up on trying new things, I'm very interested in programming, especially Backend and Devops, sometimes I also make UI</h3>
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=aabdurrohim)](https://github.com/aabdurrohim/github-readme-stats)
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=aabdurrohim&show_icons=true)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=aabdurrohim&show_icons=true&theme=tokyonight)
 <p align="left">
 </p>
 
